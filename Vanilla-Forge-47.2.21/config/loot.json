@@ -1,0 +1,63 @@
+[
+    {
+        "mob": "whatareyouvotingfor:armadillo",
+        "itemcount": "1-3/2-4",
+        "item": "whatareyouvotingfor:armadillo_scute"
+    },
+    {
+        "mob":"minecraft:ender_dragon",
+        "item":"minecraft:dragon_egg"
+    },
+    {
+        "mob":"whatareyouvotingfor:crab",
+        "item":"whatareyouvotingfor:crab_claw",
+        "random": 0.4
+    },
+    {
+        "mob":["alexscaves:tremorzilla","alexscaves:luxtructosaurus","cataclysm:netherite_monstrosity","aquamirae:captain_cornelia","cataclysm:ancient_remnant"],
+        "item":"paraglider:spirit_orb",
+        "itemcount":"3"
+    },
+    {
+        "mob":["cataclysm:amethyst_crab","royalvariations:royal_creeper","royalvariations:royal_zombie","royalvariations:royal_skeleton"],
+        "item":"paraglider:spirit_orb"
+    },
+    {
+        "mob":"cataclysm:ignited_revenant",
+        "removeall":true,
+        "item":["minecraft:netherite_block","minecraft:enchanted_golden_apple"]
+    },
+    {
+        "mob":"alexscaves:tremorzilla",
+        "item":"endrem:rogue_eye"
+    },
+    {
+        "mob":"cataclysm:netherite_monstrosity",
+        "item":["paraglider:heart_container","endrem:nether_eye"]
+    },
+    {
+        "mob":"minecraft:warden",
+        "item":["endrem:evil_eye"]
+    },
+    {
+        "mob":"minecraft:warden",
+        "player":true,
+        "item":["paraglider:spirit_orb","taxwl:waden_scale"]
+    },
+    {
+        "mob":"aquamirae:captain_cornelia",
+        "item":"endrem:cold_eye"
+    },
+    {
+        "mob":"eeeabsmobs:nameless_guardian",
+        "item":"endrem:corrupted_eye"
+    },
+    {
+        "mob":"graveyard:lich",
+        "item":["paraglider:spirit_orb","paraglider:heart_container"]
+    },
+    {
+        "mob":"cataclysm:ancient_remnant",
+        "item":"endrem:old_eye"
+    }
+]

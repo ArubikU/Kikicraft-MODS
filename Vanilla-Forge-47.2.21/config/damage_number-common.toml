@@ -1,0 +1,26 @@
+show = true
+
+[number]
+	x = -200
+	y = 100
+	scale = 2.5
+	show = true
+
+[title]
+	x = -200
+	y = 75
+	scale = 1.8
+	show = true
+
+[combo]
+	x = -210
+	y = 125
+	scale = 1.2
+	show = true
+
+[damage_list]
+	x = -120
+	y = 100
+	scale = 0.8
+	show = true
+

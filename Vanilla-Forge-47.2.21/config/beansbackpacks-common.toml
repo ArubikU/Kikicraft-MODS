@@ -1,0 +1,29 @@
+
+["Configure Backpack Sizes"]
+	#Range: 1 ~ 32
+	"Leather Backpacks Maximum Stacks" = 4
+	#Range: 1 ~ 8
+	"Ender Backpacks Maximum Stacks" = 4
+	#Range: 1 ~ 32
+	"Winged Backpacks Maximum Stacks" = 4
+	#Range: 1 ~ 32
+	"Iron & Undefined Metal Backpacks Maximum Stacks" = 7
+	#Range: 1 ~ 128
+	"Equipped Decorated Pots Maximum Stacks" = 128
+	#Range: 1 ~ 128
+	"Equipped Cauldrons Maximum Buckets" = 24
+
+["Configure Gamerule Defaults"]
+	#Players may still change these values on a per-world basis
+	#
+	#Lock placed Backpacks if a player did not place it
+	lockBackpackNotOwner = false
+	#Lock placed Backpacks while their owner is offline
+	lockBackpackOffline = false
+	#Lock Ender Backpacks while their owner is offline
+	lockEnderWhenLoggedOff = false
+	#Unbind an equipped Ender Backpack when a player dies
+	unbindEnderOnDeath = false
+	#Does the player keep their Back Slot on death
+	keepBackSlot = false
+

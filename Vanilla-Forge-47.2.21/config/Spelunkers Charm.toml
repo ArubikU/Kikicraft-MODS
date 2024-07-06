@@ -1,0 +1,18 @@
+
+[Tremors]
+	Tremors = true
+	"Rumble Sound Minimum Interval" = 300.0
+	"Rumble Sound Maximum Interval" = 600.0
+	"Tremor Base Intensity" = 1.0
+	"Tremor Base Length Minimum" = 100.0
+	"Tremor Base Length Maximum" = 200.0
+	"Tremor Volume" = 1.0
+
+["World Gen"]
+	"Generate Geysers" = true
+	"Generate Rocks" = true
+	"Generate Deepslate Rocks" = true
+	"Generate Dripstone Rocks" = true
+	"Generate Clay Piles" = true
+	"Generate Basalt Rocks" = true
+

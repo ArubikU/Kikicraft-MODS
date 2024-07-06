@@ -1,0 +1,72 @@
+#The radius mobs must be in in order to count towards music tracks playing
+#Requires restart.
+#Default: 64
+#Range: 4 ~ 256
+maxMobSearchRadius = 20
+#Specifies the distance the nearest enemy threat must be in in order for the aggressive/player music tracks to continue to play
+#Requires restart.
+#Default: 24
+#Range: 4 ~ 256
+threatRadius = 10
+#Specifies the time (in seconds) for the current threat that causes mob-based attacking tracks to play to be reevaluated.
+#Default: 5
+#Range: 1 ~ 300
+threatReevaluationCooldown = 2
+#If enabled, the mob-based attacking tracks will only play for threats that the player can see on screen.
+#Default: true
+onlyCountVisibleMobs = true
+#A list of mobs that should NOT be considered towards music tracks playing.
+ignoredMobs = ["minecraft:creeper", "minecraft:ender_dragon", "aquamirae:captain_cornelia"]
+#Specifies if the ignored mob list should be used a whitelist instead of a blacklist.
+#Default: false
+whiteListMode = false
+#Specifies the time (in seconds) that a music track must not be playing for it to stop completely. Higher time will make it so music tracks won't restart as much if they fade back in for whatever reason.
+#Default: 15
+#Range: 1 ~ 300
+musicTrackEmptyTime = 15
+#Specifies the time (in seconds) after there is no longer a nearby threat for the aggressive/player music tracks to stop playing. Effectively acts as the player 'calming down' after being attacked.
+#Default: 5
+#Range: 1 ~ 300
+calmDownTime = 5
+
+#Non-aggressive music track
+[non_aggro]
+	#Specifies if the non-aggressive music track should play at all.
+	#Default: true
+	nonAggressiveTrackEnabled = false
+	#The time (in seconds) for the non-aggressive music track to fade in/out.
+	#Default: 6.0
+	#Range: 0.05 ~ 60.0
+	nonAggressiveFadeTime = 6.0
+	#The maximum amount of mobs required for the non-aggressive background music track to reach full volume. Set to '1' for this track type to play at full volume constantly.
+	#Default: 5
+	#Range: 1 ~ 100
+	maxMobsForMaxVolume = 5
+
+#Aggressive music track
+[aggro]
+	#Specifies if the aggressive music track should play at all.
+	#Default: true
+	aggressiveTrackEnabled = true
+	#The time (in seconds) for the aggressive music track to fade in/out.
+	#Default: 2.0
+	#Range: 0.05 ~ 60.0
+	aggressiveFadeTime = 2.0
+
+#Player music track
+[player]
+	#Specifies if the player music track should play at all.
+	#Default: true
+	playerTrackEnabled = false
+	#The time (in seconds) for the player music track to fade in/out.
+	#Default: 1.0
+	#Range: 0.05 ~ 60.0
+	playerFadeTime = 1.0
+	#Specifies the time (in seconds) for the current player threat that is causing the player music track to play to be reevaluated. Will cause the player track to stop playing if the player is no longer attacking or being a threat.
+	#Default: 20
+	#Range: 1 ~ 300
+	playerReevaluationCooldown = 20
+	#Specifies if punching a player should count towards the player track playing.
+	#Default: false
+	punchingCountsAsViolence = false
+

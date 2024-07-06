@@ -1,0 +1,34 @@
+
+# || =========== [Obtaining] =========== ||
+[obtaining]
+	# || How is Amethyst Weapons and Armor (Player) obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainAmethystGear = 1
+	# || How are Rosettes obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainRosettes = 1
+	# || How are Two Tailed Ribbons obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainTwoTailedRibbons = 2
+	# || How are Three Tailed Ribbons obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainThreeTailedRibbons = 2
+	# || How are Champion and Reserve Champion Ribbons obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainChampionshipRibbons = 2
+	# || How are Plaques obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainPlaques = 2
+	# || How are Trophies obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainTrophies = 2
+	# || How are Breeding Tokens obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainTokensBreeding = 3
+	# || How are Boosters obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainBoosters = 1
+	# || How are Infertility Potions obtained? 1 = Survival Crafting, 2 = Creative Menu, 3 = /give
+	#Range: 1 ~ 3
+	obtainInfertilityPotions = 1
+

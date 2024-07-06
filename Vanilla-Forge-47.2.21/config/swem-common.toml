@@ -1,0 +1,52 @@
+
+#Common Configs
+[common]
+
+	# || =========== [Block o Water] =========== ||
+	[common.block_o_water]
+		# || Do the hose and the spigot require a Block O Water?
+		needBlockOWater = true
+
+#SWEM Ore Generation Settings
+[oregen]
+
+	# || =========== [SWEMCobble] =========== ||
+	[oregen.swem_cobble]
+		# || Enable SWEMCobble ore generation?
+		enableSWEMCobbleOre = true
+		# || SWEMCobble ore vein size
+		#Range: > 1
+		swemCobbleVeinSize = 7
+		# || SWEMCobble ore vein count per chunk
+		#Range: > 1
+		swemCobbleVeinCount = 12
+		# || SWEMCobble ore minimum height
+		#Range: > 1
+		swemCobbleMinHeight = 50
+		# || SWEMCobble ore maximum height
+		#Range: > 1
+		swemCobbleMaxHeight = 128
+
+	# || =========== [Cantazarite] =========== ||
+	[oregen.cantazarite]
+		# || Enable cantazarite ore generation?
+		enableCantazariteOre = true
+		# || Cantazarite ore vein size
+		#Range: > 1
+		cantazariteVeinSize = 4
+		# || Cantazarite ore vein count per chunk
+		#Range: > 1
+		cantazariteVeinCount = 6
+		# || Cantazarite ore minimum height
+		#Range: > 0
+		cantazariteMinHeight = 0
+		# || Cantazarite ore maximum height
+		#Range: > 1
+		cantazariteMaxHeight = 30
+
+	# || =========== [Shining Amethyst] =========== ||
+	[oregen.amethyst]
+		# || What is the spawn chance (%) for Shining Amethyst?
+		#Range: 0 ~ 100
+		amethystSpawnChance = 25
+

@@ -1,0 +1,29 @@
+
+["Slow Walk Speed"]
+	#This defines the speed of the slow walk.(This won't change animation speed, higher values may look and feel a bit off) [0.1 is the normal movement speed and 0.05 is the default slow walking moded speed]
+	"Slow Walking speed" = 0.05
+
+["Tool Holding Animation"]
+	#This defines if the tool holding animation will trigger
+	"Trigger Holding Tool Animation" = true
+
+["Slow Walk By Default"]
+	#This determines if slow walk is enabled by default
+	"Slow Walk By Default" = false
+
+["Slow walk Animation"]
+	#This determines if slow walking triggers the animation
+	"Slow Walk Animation" = true
+
+["Slow Walk Hold Key"]
+	#This determines wheter or not the slow walking is togglable
+	"Slow walk Hold Key" = false
+
+["Sneakyng Slow Walk Speed"]
+	#This defines the speed of the slow walk while sneaking.(This won't change animation speed, higher values may look and feel a bit off) [0.08 is the default slow walking speed while sneaking]
+	"Slow Walking Sneaking Speed" = 0.08
+
+["Combat Mode"]
+	#This sets the animation to trigger only in the player legs, so If you're holding tools hands will be free to swing.
+	"Combat Mode" = false
+

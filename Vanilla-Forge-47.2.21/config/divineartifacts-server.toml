@@ -1,0 +1,176 @@
+
+["Divine Artifacts"]
+
+	["Divine Artifacts"."Enable/Disable Artifacts"]
+
+		["Divine Artifacts"."Enable/Disable Artifacts".Items]
+			"Ring Of Divinity" = true
+			"Divine Orb" = true
+
+	["Divine Artifacts"."Ring Of Divinity"]
+
+		["Divine Artifacts"."Ring Of Divinity".Abilities]
+			#Magnet Range
+			#Range: 1 ~ 100
+			"Magnet Range" = 60
+			#AOE Damage
+			#Range: 1 ~ 100
+			"AOE Damage" = 30
+			#Extra Drops
+			#Range: 1 ~ 100
+			"Drops Amounts" = 9
+
+		["Divine Artifacts"."Ring Of Divinity"."Potion Effects"]
+			#Regeneration Level
+			#Range: 1 ~ 255
+			"Health Regeneration" = 10
+			#Luck Level
+			#Range: 1 ~ 255
+			Luck = 10
+			#Fire Resistance
+			#Range: 1 ~ 255
+			"Fire Resistance" = 10
+			#Water Breathing
+			#Range: 1 ~ 255
+			"Water Breathing" = 1
+			#Night Vision
+			#Range: 1 ~ 255
+			"Night Vision" = 1
+			#Saturation
+			#Range: 1 ~ 255
+			Saturation = 10
+
+		["Divine Artifacts"."Ring Of Divinity".Attribute]
+
+			["Divine Artifacts"."Ring Of Divinity".Attribute.Toggle]
+				#Enable Attack Damage Attribute
+				"Attack Damage" = true
+				#Enable Armor Attribute
+				Armor = true
+				#Enable Armor Toughness Attribute
+				"Armor Toughness" = true
+				#Enable Knockback Resistance Attribute
+				"Knockback Resistance" = true
+				#Enable Max Health Attribute
+				"Max Health" = true
+				#Enable Step Height Attribute
+				"Step Height" = true
+				#Enable Block Reach Attribute
+				"Block Reach" = true
+				#Enable Entity Reach Attribute
+				"Entity Reach" = true
+				#Enable Movement Speed Attribute
+				"Movement Speed" = true
+				#Enable Swim Speed Attribute
+				"Swim Speed" = true
+				#Enable Flying Speed Attribute
+				"Flying Speed" = true
+				#Enable Luck Attribute
+				Luck = true
+				#Enable Crit Chance Attribute
+				"Crit Chance" = true
+				#Enable Armor Pierce Attribute
+				"Armor Pierce" = true
+				#Enable Armor Shred Attribute
+				"Armor Shred" = true
+				#Enable Arrow Velocity Attribute
+				"Arrow Velocity" = true
+				#Enable Arrow Damage Attribute
+				"Arrow Damage" = true
+				#Enable Draw Speed Attribute
+				"Draw Speed" = true
+
+			["Divine Artifacts"."Ring Of Divinity".Attribute.Value]
+				#Attack Damage
+				#Range: 1 ~ 1000
+				"Attack Damage" = 100
+				#Armor
+				#Range: 1 ~ 1000
+				Armor = 100
+				#Armor Toughness
+				#Range: 1 ~ 1000
+				"Armor Toughness" = 10
+				#Knock back Resistance
+				#Range: 10 ~ 100
+				"Knock back Resistance %" = 100
+				#Max Heart
+				#Range: 100 ~ 1000
+				"Max Health %" = 500
+				#Step Height
+				#Range: 1 ~ 4
+				"Step Height" = 1
+				#Block Reach
+				#Range: 1 ~ 100
+				"Block Reach" = 10
+				#Entity Reach
+				#Range: 1 ~ 100
+				"Entity Reach" = 10
+				#Movement Speed
+				#Range: 100 ~ 1000
+				"Movement Speed %" = 200
+				#Swim Speed
+				#Range: 100 ~ 1000
+				"Swim Speed %" = 400
+				#Flying Speed
+				#Range: 100 ~ 1000
+				"Flying Speed %" = 100
+				#Luck
+				#Range: 1 ~ 1000
+				Luck = 10
+				#Crit Chance
+				#Range: 100 ~ 1000
+				"Crit Chance %" = 100
+				#Armor Pierce
+				#Range: 100 ~ 1000
+				"Armor Pierce %" = 100
+				#Armor Shred
+				#Range: 100 ~ 1000
+				"Armor Shred %" = 100
+				#Arrow Velocity
+				#Range: 100 ~ 1000
+				"Arrow Velocity %" = 100
+				#Arrow Damage
+				#Range: 100 ~ 1000
+				"Arrow Damage %" = 200
+				#Draw Speed
+				#Range: 100 ~ 1000
+				"Draw Speed %" = 200
+
+	["Divine Artifacts"."Orb Of Magic"]
+
+		["Divine Artifacts"."Orb Of Magic".Attribute]
+
+			["Divine Artifacts"."Orb Of Magic".Attribute.Toggle]
+				#Enable Spell Resist Attribute
+				"Spell Resist" = true
+				#Enable Spell Power Attribute
+				"Spell Power" = true
+				#Enable Mana Regen Attribute
+				"Mana Regen" = true
+				#Enable Max Mana Attribute
+				"Max Mana" = true
+				#Enable Cool-Down Reduction Attribute
+				"Cool-Down Reduction" = true
+				#Enable Cast-Time Reduction Attribute
+				"Cast-Time Reduction" = true
+
+			["Divine Artifacts"."Orb Of Magic".Attribute.Value]
+				#Spell Resist
+				#Range: 100 ~ 1000
+				"Spell Resist %" = 200
+				#Spell Power
+				#Range: 100 ~ 1000
+				"Spell Power %" = 200
+				#Mana Regen
+				#Range: 100 ~ 1000
+				"Mana Regen %" = 200
+				#Max Mana
+				#Range: 100 ~ 1000
+				"Max Mana %" = 200
+				#Cool-Down Reduction
+				#Range: 100 ~ 1000
+				"Cool-Down Reduction %" = 200
+				#Cast-Time Reduction
+				#Range: 100 ~ 1000
+				"Cast-Time Reduction %" = 200
+

@@ -1,0 +1,62 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = mouse_settings_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1712635226807
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:1ac7c8ff-fa18-4e9a-8ec2-e3ae05dbf45c-1712635207872] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 943b439e-91fc-4b2b-80b1-f4af7f0e7418-1712635207873
+  [executable_block:943b439e-91fc-4b2b-80b1-f4af7f0e7418-1712635207873][type:generic] = [executables:]
+  backgroundnormal = [source:local]/config/fancymenu/assets/boton1.png
+  backgroundhovered = [source:local]/config/fancymenu/assets/boton2.png
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = 400973
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 220
+  y = 333
+  width = 200
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 958a0c7b-a660-4438-90e5-cec1fdf43a66-1712635207873
+  [loading_requirement_container_meta:958a0c7b-a660-4438-90e5-cec1fdf43a66-1712635207873] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+

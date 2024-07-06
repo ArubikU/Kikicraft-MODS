@@ -1,0 +1,19 @@
+
+["Divine Artifacts"]
+
+	["Divine Artifacts"."Enable/Disable Artifacts"]
+
+		["Divine Artifacts"."Enable/Disable Artifacts".State]
+			#On/Off Magnet state
+			MagnetState = true
+			#On/Off AOE Damage state
+			"AOE State" = true
+			#On/Off Shield state
+			" Shield State" = true
+			#On/Off Block Break state
+			"Block Break State" = true
+			#On/Off Extra Drops state
+			"Extra Drops" = true
+			#On/Off Toggle Hud elements state
+			"Hud Elements" = true
+
