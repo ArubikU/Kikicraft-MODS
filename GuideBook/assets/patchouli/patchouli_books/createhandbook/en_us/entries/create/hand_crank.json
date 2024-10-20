@@ -1,0 +1,39 @@
+{
+    "name": "Manivela",
+    "icon": "create:hand_crank",
+    "category": "patchouli:create",
+    "sortnum": "7",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "La Manivela genera una pequeña cantidad de Fuerza Rotacional mediante la interacción del jugador."
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "Manivela",
+        "link_recipe": true,
+        "item": "create:hand_crank",
+        "text": "La Manivela se fabrica con tablones y Aleación de Andesita."
+      },
+      {
+        "type": "patchouli:multiblock",
+        "name": "Manivela",
+        "enable_visualize": true,
+        "multiblock": {
+          "pattern": [
+            ["c"]
+          ],
+          "mapping": {
+            "c": "create:hand_crank"
+          }
+        },
+        "text": "$(br)La Manivela puede girar a 32RPM durante aproximadamente 0.5 segundos. Una utilización de la Manivela hará girar un Cojinete Mecánico conectado 1:1 90°."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Uso",
+        "text": "Mantén presionado el clic derecho para girar la Manivela en sentido antihorario y Shift + clic derecho para invertir la rotación.$(br)El uso de la Manivela agotará el hambre del jugador."
+      }
+    ]
+  }
+  

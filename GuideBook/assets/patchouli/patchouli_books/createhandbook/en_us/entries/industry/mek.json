@@ -1,0 +1,228 @@
+{
+    "name":"Mekanism",
+    "icon":"mekanism:alloy_atomic",
+    "category":"patchouli:industry",
+    "pages":[
+        {
+            "type":"text",
+            "text":"¡Un mod tan grande como Mekanism ni siquiera viene con documentación! Pero realmente no quiero escribir una, así que aquí solo hay algunas demostraciones de construcción de estructuras multibloque."
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    [ "FFF"],
+                    [ "F F"], 
+                    [ "F F"], 
+                    [ "F0F"]
+                ],
+                "mapping": {
+                    "F": "mekanism:teleporter_frame",
+                    "0": "mekanism:teleporter"
+                },
+                "symmetrical": true
+            },
+            "name":"Transportador",
+            "text":"Para viajar entre dos transportadores, solo necesitas configurar ambos transportadores al mismo canal."
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["EEEE","E  E","E  E","EEEE"],
+                    ["ECEE","V  V","E  E","EEEE"],
+                    ["EEEE","EEEE","E0EE","EEEE"]
+                ],
+                "mapping":{
+                    "E":"mekanism:thermal_evaporation_block",
+                    "V":"mekanism:thermal_evaporation_valve",
+                    "C":"mekanism:thermal_evaporation_controller",
+                    "0":"mekanism:thermal_evaporation_block"
+                },
+                "symmetrical":true
+            },
+            "name": "Torre de Destilación Térmica",
+            "text": "La fuente de calor utilizada para la destilación puede ser un calentador eléctrico o un generador solar avanzado. Torres más altas pueden contener más fluidos."
+        },
+        {
+            "type": "text",
+            "text": "$(l) Materiales necesarios: $() $(br) Controlador de Destilación Térmica $(br) Bloque de Destilación Térmica $(br) Válvula de Destilación Térmica"
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCC","CCCCC","CCCCC","CCCCC","CCCCC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CCCCC","CDDDC","CDDDC","CDDDC","CCCCC"],
+                    ["CGGGC","G   G","G   G","G   G","CGGGC"],
+                    ["CVGVC","G   G","G S G","G   G","CGGGC"],
+                    ["CCCCC","CCCCC","CC0CC","CCCCC","CCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanism:boiler_casing",
+                    "G":"mekanism:structural_glass",
+                    "D":"mekanism:pressure_disperser",
+                    "V":"mekanism:boiler_valve",
+                    "S":"mekanism:superheating_element",
+                    "0":"mekanism:boiler_casing"
+                }
+            },
+            "name": "Caldera Térmica",
+            "text": "Mínimo de 5*5*5, el vidrio estructural puede ser reemplazado por la carcasa de la caldera."
+        },
+        {
+            "type": "text",
+            "text": "$(l) Materiales necesarios: $() $(br) Carcasa de Caldera $(br) Válvula de Caldera $(br) Elemento de Dispersión de Presión $(br) Elemento de Calentamiento $(br) Vidrio Estructural (opcional) $(br2) $(l) Notas: $() $(br) La válvula se puede configurar para cambiar el modo de entrada/salida; $(br) El tamaño de las dos capas superiores determina la capacidad de vapor y agua; $(br) La cantidad de elementos de calentamiento determina la eficiencia de la conversión de calor."
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCCCC","CTTTTTC","CTTTTTC","CTTTTTC","CTTTTTC","CTTTTTC","CCCCCCC"],
+                    ["CGGGGGC","GSSSSSG","GSSSSSG","GSEEESG","GSSSSSG","GSSSSSG","CGGGGGC"],
+                    ["CGGGGGC","GDDDDDG","GDDDDDG","GDDRDDG","GDDDDDG","GDDDDDG","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CGGGGGC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CVGGGVC","G     G","G     G","G  P  G","G     G","G     G","CGGGGGC"],
+                    ["CCCCCCC","CCCCCCC","CCCCCCC","CCC0CCC","CCCCCCC","CCCCCCC","CCCCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:turbine_casing",
+                    "T":"mekanismgenerators:turbine_vent",
+                    "G":"mekanism:structural_glass",
+                    "E":"mekanismgenerators:electromagnetic_coil",
+                    "D":"mekanism:pressure_disperser",
+                    "R":"mekanismgenerators:rotational_complex",
+                    "S":"mekanismgenerators:saturating_condenser",
+                    "P":"mekanismgenerators:turbine_rotor",
+                    "V":"mekanismgenerators:turbine_valve",
+                    "0":"mekanismgenerators:turbine_casing"
+                }
+            },
+            "text": "Turbina de Vapor"
+        },
+        {
+            "type": "text",
+            "text": "$(l) Materiales necesarios: $() $(br) Carcasa de Turbina $(br) Válvula de Turbina $(br) Elemento de Dispersión de Presión $(br) Rotor de Turbina $(br) Elemento de Complejidad Rotacional $(br) Ventilación de Turbina $(br) Bobina Electromagnética $(br) Palas de Turbina $(br) Vidrio Estructural (opcional) $(br) Condensador Saturador (opcional)"
+        },
+        {
+            "type": "text",
+            "text": "$(l) Notas: $() $(br) El tamaño máximo de la turbina es 17*17*18, y el mínimo es 5*5*5; $(br) Debes instalar las palas en el rotor para que la turbina funcione; $(br) Cada bobina electromagnética corresponde a dos rotores; $(br) Las bobinas electromagnéticas deben estar junto al elemento de complejidad rotacional, y deben conectarse entre sí; $(br) Debes extraer el condensado del puerto de escape de manera oportuna (solo necesitas conectar uno para extraer todo); $(br) El vidrio estructural en la capa del elemento de dispersión de presión y arriba puede ser reemplazado por puertos de escape, y el resto del vidrio puede ser reemplazado por carcasas o válvulas."
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["CCCCC","CGGGC","CGGGC","CGGGC","CCCCC"],
+                    ["CGGGC","GR RG","G R G","GR RG","CGGGC"],
+                    ["CGGGC","GF FG","G F G","GF FG","CGGGC"],
+                    ["CGGGC","VF FV","G F G","VF FV","CGGGC"],
+                    ["CCCCC","CGGGC","CG0GC","CGGGC","CCCCC"]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:fission_reactor_casing",
+                    "G":"mekanismgenerators:reactor_glass",
+                    "R":"mekanismgenerators:control_rod_assembly",
+                    "F":"mekanismgenerators:fission_fuel_assembly",
+                    "V":"mekanismgenerators:fission_reactor_port",
+                    "0":"mekanismgenerators:reactor_glass"
+                }
+            },
+            "name":"Fisión Reactor"
+        },
+        {
+            "type":"text",
+            "text":"$(l) Materiales necesarios: $()$(br)Fisión Reactor Casing$(br)Fisión Reactor Port$(br)Fisión Fuel Assembly$(br)Control Rod Assembly$(br)Glass Reforzado (opcional)$(br)Adaptador Lógico del Reactor de Fisión (opcional)"
+        },
+        {
+            "type":"text",
+            "text":"$(l) Consideraciones: $()$(br)El volumen máximo es 18*18*18, el mínimo es 3*3*4;$(br)El vidrio reforzado en el ejemplo puede ser reemplazado por el casing, los puertos y el adaptador lógico;$(br)El adaptador lógico puede emitir señales de redstone dependiendo del estado del reactor;$(br)Los componentes de combustible se pueden apilar verticalmente en cualquier cantidad, pero la parte superior debe ser una barra de control;$(br)Cuanto más cerca estén los pilares de combustible, menor será la eficiencia;$(br)Utiliza un configurador para cambiar el modo de entrada y salida de los puertos;$(br)El refrigerante puede ser agua o vapor de sodio;$(br)Asegúrate de tener suficiente entrada de refrigerante y de extraer los productos lo más pronto posible;"
+        },
+        {
+            "type":"text",
+            "text":"¡No destruyas el reactor mientras haya residuos nucleares en él, ya que podría causar una fuga de radiación!$(br)La parada de emergencia es segura."
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["  CCC  "," CGGGC ","CGGGGGC","CGGGGGC","CGGGGGC"," CGGGC ","  CCC  "],
+                    [" CGGGC ","C     C","G     G","G     G","G     G","C     C"," CGGGC "],
+                    ["CGGGGGC","G     G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    ["CGGPGGC","G  S  G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    ["CPGGGPC","G     G","G     G","G     G","G     G","G     G","CGGGGGC"],
+                    [" CGGGC ","C     C","G     G","G     G","G     G","C     C"," CGGGC "],
+                    ["  CCC  "," CGGGC ","CGGGGGC","CGG0GGC","CGGGGGC"," CGGGC ","  CCC  "]
+                ],
+                "mapping":{
+                    "C":"mekanism:sps_casing",
+                    "G":"mekanism:structural_glass",
+                    "S":"mekanism:supercharged_coil",
+                    "P":"mekanism:sps_port",
+                    "0":"mekanism:structural_glass"
+                }
+            },
+            "name":"Supercrítico Phaser"
+        },
+        {
+            "type":"text",
+            "text":"$(l) Materiales necesarios: $()$(br)Supercrítico Phaser Casing$(br)Supercrítico Phaser Port$(br)Bobina Supercargada$(br)Vidrio Estructural (recomendado) $(br2)$(l)Consideraciones: $()$(br)Se necesitan al menos 3 puertos, uno para suministro de energía, uno para entrada y uno para salida, ajusta con un configurador;$(br)Puedes añadir más bobinas para aumentar la velocidad de producción, pero asegúrate de tener suficiente suministro de energía;$(br)La producción máxima es 2mb/t."
+        },
+        {
+            "type":"multiblock",
+            "multiblock":{
+                "pattern":[
+                    ["  C  "," CGC ","CGFGC"," CGC ","  C  "],
+                    [" CGC ","C   C","G   G","C   C"," CGC "],
+                    ["CGLGC","G   G","P   P","G   G","CGGGC"],
+                    [" CGC ","C   C","G   G","C   C"," CGC "],
+                    ["  C  "," CGC ","CG0GC"," CGC ","  C  "]
+                ],
+                "mapping":{
+                    "C":"mekanismgenerators:fusion_reactor_frame",
+                    "G":"mekanismgenerators:reactor_glass",
+                    "F":"mekanismgenerators:fusion_reactor_controller",
+                    "L":"mekanismgenerators:laser_focus_matrix",
+                    "P":"mekanismgenerators:fusion_reactor_port",
+                    "0":"mekanismgenerators:reactor_glass"
+                }
+            },
+            "name":"Fusión Reactor"
+        },
+        {
+            "type":"text",
+            "text":"$(l) Materiales necesarios: $()$(br)Casing de Fusión Reactor$(br)Puerto de Fusión Reactor$(br)Controlador de Fusión Reactor$(br)Adaptador Lógico del Reactor de Fusión (opcional)$(br)Vidrio Reforzado (recomendado)$(br2)$(l)Consideraciones: $()$(br)Antes de iniciar, coloca un Radiador de Cuerpo Negro lleno de combustible en la interfaz del reactor y ajusta la tasa de consumo de combustible;$(br)El método de inicio es usar un amplificador láser configurado con señal de redstone, apuntando la cara del amplificador (roja) hacia la matriz de enfoque láser, y cuando el amplificador tenga 400MFE de energía almacenada,$(br)Inicia el amplificador, el láser se dirigirá hacia la matriz de enfoque, provocando la reacción. $(br)Sin agua, la capacidad del reactor de fusión es de 200MFE/t, con un suministro adecuado de agua, la capacidad es de 189MFE/t y 10,000,000mb/t de vapor. Por lo tanto, al usar refrigeración por agua, necesitarás al menos 3 puertos, uno para entrada de combustible y agua, uno para salida de vapor y uno para salida de energía. $(br)Puedes introducir deuterio y tritio por separado o combustible de deuterio-tritio directamente, este último produce más energía pero se consume a una velocidad fija de 1000mB/t. $(br2)Para detener la fusión, simplemente deja de suministrar combustible."
+        },
+        {
+            "type":"multiblock",
+            "multiblock": {
+                "pattern": [
+                    ["CCCC", "CGGC", "CGGC", "CCCC"],
+                    ["CGGC", "G  G", "G  G", "CGGC"],
+                    ["CPPC", "G  G", "GLVG", "CGGC"],
+                    ["CCCC", "C0GC", "CGGC", "CCCC"]
+                ],
+                "mapping":{
+                    "C": "mekanism:induction_casing",
+                    "G": "mekanism:structural_glass",
+                    "P": "mekanism:induction_port",
+                    "L": "mekanism:basic_induction_cell",
+                    "V": "mekanism:basic_induction_provider",
+                    "0": "mekanism:structural_glass"
+                }
+            },
+            "name": "Matriz de Conducción"
+        },
+        {
+            "type":"text",
+            "text":"$(l) Materiales necesarios: $()$(br)Casing de Conducción$(br)Puerto de Conducción$(br)Proveedor de Conducción$(br)Elemento de Conducción$(br)Vidrio Estructural (opcional)$(br2)$(l)Consideraciones: $()$(br)La capacidad de almacenamiento y la capacidad de entrada/salida de la matriz de conducción están determinadas por los elementos de conducción y el proveedor de conducción utilizados, puedes ajustar el modo de entrada/salida de los puertos con un configurador."
+        }
+        
+    ]
+}

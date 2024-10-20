@@ -1,0 +1,51 @@
+{
+    "name": "Motor de Vapor",
+    "icon": "create:steam_engine",
+    "category": "patchouli:create",
+    "sortnum": "9",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "El Motor de Vapor es un bloque que proporciona [[Rotational Force]]. Ofrece la mayor capacidad de [[Kinetic Stress|Stress Unit (SU)]] de todos los bloques generadores de energía en modo supervivencia. Convierte la presión causada por el calentamiento de {{MC|Water}} en un [[Rotational Force]], permitiendo la producción a gran escala de ítems y múltiples contraptaciones."
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "Motor de Vapor",
+        "link_recipe": true,
+        "item": "create:steam_engine",
+        "text": "El Motor de Vapor se fabrica con [[Golden Sheet]], [[Andesite Alloy]] y {{MC|Copper Block}}."
+      },
+      {
+        "type": "patchouli:multiblock",
+        "name": "Motor de Vapor",
+        "enable_visualize": true,
+        "multiblock": {
+          "pattern": [
+            ["s", "s", "s"],
+            ["s", "s", "s"],
+            ["s", "s", "s"]
+          ],
+          "mapping": {
+            "s": "create:steam_engine"
+          }
+        },
+        "text": "$(br)El Motor de Vapor usa {{MC|Water}} calentada para funcionar y debe colocarse sobre [[Fluid Tank]]s que actúan como una caldera. Se requiere al menos 4 Fluid Tanks y 4 fuentes de calor. Un [[Shaft]] puede usarse en el motor para crear una salida cinética."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Uso",
+        "text": "Los Motores de Vapor utilizan agua calentada para generar energía. Para aumentar la potencia generada, debes incrementar uno o más de los tres factores (calor, tamaño, agua) de la caldera. Un solo Motor de Vapor puede extraer hasta 16,384 SU. Puedes usar múltiples Motores de Vapor conectados a una sola caldera para extraer más potencia, pero esto no aumenta la potencia total generada por la caldera."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Trivia",
+        "text": "* Los Motores de Vapor pueden sobrecargar de manera independiente. Esto significa que si uno se sobrecarga, los demás seguirán generando fuerza rotacional, lo que permite crear un motor de vapor autosuficiente que nunca se atasca.$(br) * A diferencia de otras máquinas de mods, un Motor de Vapor no almacena agua, a pesar de estar hecho de Fluid Tanks. El agua se \"evapora\" al insertarla, independientemente de si supera los requisitos del motor o no."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Resolución de Problemas",
+        "text": "* A veces, el motor de vapor puede mostrar que no tiene entrada de agua a pesar de que una bomba de agua está conectada. La única solución es retirar todos los motores de vapor para que el tanque vuelva a ser un tanque de fluidos normal y luego reemplazarlos.$(br) * Al mantener presionado el clic derecho en el lado de un motor de vapor, puedes cambiar la dirección en la que rota. Si tu fábrica parece estar funcionando al revés, esta es una forma rápida de solucionarlo."
+      }
+    ]
+  }
+  

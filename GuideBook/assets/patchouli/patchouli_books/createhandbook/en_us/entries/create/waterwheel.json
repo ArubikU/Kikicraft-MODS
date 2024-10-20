@@ -1,0 +1,15 @@
+{
+    "name": "Ruedas Hidráulicas",
+    "icon": "create:water_wheel",
+    "category": "patchouli:create",
+    "sortnum": "4",
+    "pages": [
+        {
+            "title": "La Rueda Hidráulica",
+            "type": "spotlight",
+            "link_recipe": true,
+            "item": "create:water_wheel",
+            "text": "La Rueda Hidráulica necesita tener agua fluyendo sobre ella para que gire y genere energía cinética."
+        }
+    ]
+}

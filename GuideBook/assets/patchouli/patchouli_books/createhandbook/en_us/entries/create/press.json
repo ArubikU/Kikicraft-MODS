@@ -1,0 +1,30 @@
+
+{
+    "name": "Prensa Mecánica",
+    "icon": "create:mechanical_press",
+    "category": "patchouli:create",
+    "sortnum": "3",
+    "pages": [
+        {
+            "type": "text",
+            "text": "La prensa mecánica se puede usar para prensar y compactar artículos."
+        },
+        {
+            "type": "multiblock",
+            "name": "Prensa Mecánica",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern":[
+                    ["m"],
+                    [" "],
+                    ["0"]        
+                ],
+                "mapping":{
+                    "0": "create:depot",
+                    "m": "create:mechanical_press"
+                }
+            },
+            "text": "$(br)La Prensa Mecánica se usa para prensar artículos en el depot y obtener nuevos artículos prensados. \n Esta puede ser tambien usado sobre cintas transportadoras"
+        }
+    ]
+}

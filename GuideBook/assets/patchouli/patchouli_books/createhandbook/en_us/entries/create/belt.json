@@ -1,0 +1,40 @@
+{
+  "name": "Cinta Transportadora Mecánica",
+  "icon": "create:mechanical_belt",
+  "category": "patchouli:create",
+  "sortnum": "8",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "La Cinta Transportadora Mecánica es un componente mecánico que transmite rotación y mueve ítems y entidades."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "title": "Cinta Transportadora Mecánica",
+      "link_recipe": true,
+      "item": "create:mechanical_belt",
+      "text": "La Cinta Transportadora Mecánica se fabrica con Algas Secas."
+    },
+    {
+      "type": "patchouli:multiblock",
+      "name": "Cinta Transportadora Mecánica",
+      "enable_visualize": true,
+      "multiblock": {
+        "pattern": [
+          [" ", " ", " "],
+          ["b", "b", "b"],
+          [" ", " ", " "]
+        ],
+        "mapping": {
+          "b": "create:mechanical_belt"
+        }
+      },
+      "text": "$(br)La Cinta Transportadora Mecánica puede ser colocada horizontal, vertical o diagonalmente, siempre que no haya obstrucciones y que la longitud total no sea mayor a veinte bloques.$(br)Puede transportar ítems y entidades, y se puede extender o acortar usando una Cinta Transportadora Mecánica o una Llave Inglesa, respectivamente."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Uso",
+      "text": "Para colocar la Cinta Transportadora, necesitas al menos dos Ejes. Coloca la Cinta haciendo clic derecho en el primer eje y luego en el segundo. La Cinta puede mover ítems y entidades, y su velocidad de transporte depende de la velocidad de rotación."
+    }
+  ]
+}

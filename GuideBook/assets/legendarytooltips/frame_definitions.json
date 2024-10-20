@@ -1,0 +1,85 @@
+{
+	"definitions": [
+		// 1.  Minecraft Enchanted Books
+		{
+			"index": 0,
+			"startColor": "#8B4513",
+			"endColor": "#723510",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["minecraft:enchanted_book"]
+		},
+		// 2.  Quark Ancient Tomes
+		{
+			"index": 1,
+			"startColor": "#351743",
+			"endColor": "#200C2C",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["quark:ancient_tome"]
+		},
+		// 3.  Waystones
+		{
+			"index": 2,
+			"startColor": "#CA87FF",
+			"endColor": "#6C11B2",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["@waystones"]
+		},
+		// 4.  Create - Andesite age items
+		{
+			"index": 8,
+			"startColor": "#686868",
+			"endColor": "#353535",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["create:cogwheel","create:large_cogwheel","create:gearbox","create:vertical_gearbox","create:clutch","create:gearshift","create:encased_chain_drive","create:adjustable_chain_gearshift","create:water_wheel","create:encased_fan","create:turntable","create:hand_crank","create:cuckoo_clock","create:millstone","create:crushing_wheel","create:mechanical_press","create:mechanical_mixer","create:depot","create:weighted_ejector","create:speedometer","create:stressometer","create:mechanical_piston","create:sticky_mechanical_piston","create:gantry_carriage","create:gantry_shaft","create:windmill_bearing","create:mechanical_bearing","create:rope_pulley","create:mechanical_drill","create:mechanical_saw","create:portable_storage_interface","create:andesite_casing","create:shaft","create:cart_assembler","create:piston_extension_pole","create:blaze_burner","create:empty_blaze_burner","create:basin","create:belt_connector","create:nozzle","create:chute","create:filter","create:item_vault","create:schematic_table","create:white_sail","create:sail_frame","create:linear_chassis","create:secondary_linear_chassis","create:radial_chassis","create:sticker","create:portable_storage_interface","create:redstone_contact","create:mechanical_harvester","create:mechanical_plough","create:display_board","create:schematicannon","create:andesite_funnel","create:andesite_tunnel","create_crystal_clear:andesite_glass_casing","create_crystal_clear:andesite_clear_glass_casing","create:large_water_wheel","create:contraption_controls","create:mechanical_roller","create:cogwheel","create:track_station","create:schedule","create:track_signal","create:track_observer","create:cogwheel","create:nixie_tube","create:rose_quartz_lamp","create:analog_lever","create:powered_latch","create:powered_toggle_latch","create:minecart_coupling","create:superglue","railways:track_switch_andesite","railways:semaphore","railways:track_coupler"]
+		},
+		// 5.  Create - Brass age items
+		{
+			"index": 8,
+			"startColor": "#FFF387",
+			"endColor": "#895A3B",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["create:white_toolbox","create:orange_toolbox","create:magenta_toolbox","create:light_blue_toolbox","create:yellow_toolbox","create:lime_toolbox","create:pink_toolbox","create:gray_toolbox","create:light_gray_toolbox","create:cyan_toolbox","create:purple_toolbox","create:blue_toolbox","create:brown_toolbox","create:green_toolbox","create:red_toolbox","create:black_toolbox","create:wrench","create:goggles","create:extendo_grip","create:wand_of_symmetry","create:precision_mechanism","create:linked_controller","create_crystal_clear:brass_glass_casing","create_crystal_clear:brass_clear_glass_casing","create:elevator_pulley","create:smart_chute","create:clockwork_bearing","create:brass_casing","create:mechanical_crafter","create:sequenced_gearshift","create:flywheel","create:rotation_speed_controller","create:mechanical_arm","create:railway_casing","create:controls","create:brass_funnel","create:brass_tunnel","create:content_observer","create:stockpile_switch","create:display_link","create:redstone_link","create:placard","create:pulse_repeater","create:pulse_extender","create:flywheel","railways:track_switch_brass","railways:remote_lens","create:deployer"]
+		},
+		// 6.  Create - Copper items
+		{
+			"index": 9,
+			"startColor": "#D4865D",
+			"endColor": "#87433C",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["create:copper_backtank","create:potato_cannon","create:fluid_pipe","create:mechanical_pump","create:smart_fluid_pipe","%Valve","create:fluid_tank","create:hose_pulley","create:item_drain","create:spout","create:portable_fluid_interface","create:steam_engine","create:steam_whistle","create_crystal_clear:copper_glass_casing","create_crystal_clear:copper_clear_glass_casing","create:copper_diving_helmet","create:copper_diving_boots"]
+		},
+		// 7.  Create - Creative items
+		{
+			"index": 8,
+			"startColor": "#A42E9B",
+			"endColor": "#4D1E4A",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["create:creative_motor","create:creative_fluid_tank","create:creative_crate","create:creative_blaze_cake","create:handheld_worldshaper"]
+		},
+		// 8.  Create - Netherite items
+		{
+			"index": 9,
+			"startColor": "#5C555C",
+			"endColor": "#241F20",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": ["create:netherite_backtank","create:netherite_diving_helmet","create:netherite_diving_boots"]
+		},
+		// 9.  
+		{
+			"index": 9,
+			"startColor": "#E69E28",
+			"endColor": "#AE691E",
+			"bgStartColor": "auto",
+			"bgEndColor": "auto",
+			"selectors": [""]
+		}
+	]
+}

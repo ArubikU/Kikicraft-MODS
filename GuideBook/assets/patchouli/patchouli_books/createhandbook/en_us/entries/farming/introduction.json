@@ -1,0 +1,17 @@
+{
+  "name": "Introducción",
+  "icon": "farmersdelight:stove",
+  "category": "patchouli:farming",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Hay muchas formas diferentes de cocinar cosas. Para aprender cómo, puedes ir a tu $(thing)pestaña de avances$() y buscar Farmers Delight. $(br2)¡Esto te mostrará todas las formas deliciosas de comenzar a preparar comidas sabrosas!"
+    },
+    {
+      "type": "patchouli:link",
+      "url": "https://github.com/vectorwing/FarmersDelight/wiki/Getting-Started",
+      "text": "¿Atascado y no estás seguro de cómo funciona algo? $(br2)La wiki de Farmers Delight tiene excelente documentación de chefs expertos.",
+      "link_text": "Wiki de Farmers Delight"
+    }
+  ]
+}

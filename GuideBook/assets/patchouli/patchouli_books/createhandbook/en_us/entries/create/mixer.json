@@ -1,0 +1,30 @@
+
+{
+    "name": "Mezclador Mecánico",
+    "icon": "create:mechanical_mixer",
+    "category": "patchouli:create",
+    "sortnum": "2",
+    "pages": [
+        {
+            "type": "text",
+            "text": "El mezclador mecánico se puede usar para mezclar artículos y fluidos juntos."
+        },
+        {
+            "type": "multiblock",
+            "name": "Mezclador Mecánico",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern":[
+                    ["m"],
+                    [" "],
+                    ["0"]        
+                ],
+                "mapping":{
+                    "0": "create:basin",
+                    "m": "create:mechanical_mixer"
+                }
+            },
+            "text": "$(br)El Mezclador Mecánico se usa para mezclar artículos y fluidos en el Basin para obtener nuevos y diferentes artículos"
+        }
+    ]
+}

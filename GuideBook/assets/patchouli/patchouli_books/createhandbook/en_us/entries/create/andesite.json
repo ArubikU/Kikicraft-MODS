@@ -1,0 +1,122 @@
+{
+    "name": "Aleación de Andesita",
+    "icon": "create:andesite_alloy",
+    "category": "patchouli:create",
+    "sortnum": "1",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "La '''Aleación de Andesita''' es un material utilizado en [[Andesite Casing]] y bloques cinéticos simples, que sirve como punto de entrada a los componentes mecánicos de Create. Entre sus muchas funciones, es un ingrediente esencial para fabricar [[Shaft]]s y [[Cogwheel]]s tanto regulares como grandes. La Aleación de Andesita es el material de construcción más básico en Create."
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "Aleación de Andesita",
+        "link_recipe": true,
+        "item": "create:andesite_alloy",
+        "text": "La Aleación de Andesita se fabrica a partir de {{MC|Andesite}} y {{Minecraft|Iron|Iron Nugget}} o [[Zinc|Zinc Nugget]]."
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Obtención",
+        "recipe": {
+          "type": "crafting",
+          "item": "create:andesite_alloy",
+          "inputs": [
+            "create:andesite",
+            "minecraft:iron_nugget",
+            "create:zinc_nugget"
+          ],
+          "output": "create:andesite_alloy"
+        },
+        "text": "La Aleación de Andesita no se encuentra de forma natural en el mundo, pero se puede crear mediante las siguientes técnicas:"
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Fabricación",
+        "recipe": {
+          "type": "crafting",
+          "item": "create:andesite_alloy",
+          "inputs": [
+            "create:andesite",
+            "minecraft:iron_nugget",
+            "create:zinc_nugget"
+          ],
+          "output": "create:andesite_alloy"
+        }
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Mezcla",
+        "recipe": {
+          "type": "mixing",
+          "item": "create:andesite_alloy",
+          "inputs": [
+            "create:andesite",
+            "minecraft:iron_nugget",
+            "create:zinc_nugget"
+          ],
+          "output": "create:andesite_alloy"
+        },
+        "text": "La mezcla es un método más eficiente para crear Aleación de Andesita."
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Aplicación",
+        "recipe": {
+          "type": "crafting",
+          "item": "create:andesite_alloy",
+          "inputs": [
+            "create:andesite_alloy"
+          ],
+          "output": "create:andesite_casing"
+        },
+        "text": "La Aleación de Andesita se puede aplicar a cualquier [[Stripped Log]] para producir [[Andesite Casing]]. Este proceso puede automatizarse mediante [[Deployer|Deployers]]."
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Fabricación",
+        "recipe": {
+          "type": "crafting",
+          "item": "create:shaft",
+          "inputs": [
+            "create:andesite_alloy",
+            "create:andesite_alloy"
+          ],
+          "output": "create:shaft",
+          "amount": 8
+        },
+        "text": "La Aleación de Andesita se usa en muchas recetas, como la de [[Shaft|Ejes]]."
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Fabricación Mecánica",
+        "recipe": {
+          "type": "mechanical_crafting",
+          "item": "create:crushing_wheel",
+          "inputs": [
+            "create:andesite_alloy",
+            "minecraft:planks",
+            "minecraft:stone"
+          ],
+          "output": "create:crushing_wheel",
+          "amount": 2
+        },
+        "text": "La Aleación de Andesita se utiliza también en la creación de [[Crushing Wheel|Ruedas de Trituración]] mediante el [[Mechanical Crafter|Crafter Mecánico]]."
+      },
+      {
+        "type": "patchouli:recipe",
+        "title": "Serrado",
+        "recipe": {
+          "type": "sawing",
+          "item": "create:shaft",
+          "inputs": [
+            "create:andesite_alloy"
+          ],
+          "output": "create:shaft",
+          "amount": 6
+        },
+        "text": "La Aleación de Andesita también se puede procesar mediante el [[Mechanical Saw|Sierra Mecánica]] para obtener [[Shaft|Ejes]]."
+      }
+    ]
+  }
+  

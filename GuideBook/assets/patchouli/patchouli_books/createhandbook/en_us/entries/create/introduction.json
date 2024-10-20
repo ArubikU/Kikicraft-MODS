@@ -1,0 +1,18 @@
+{
+  "name": "Introducción",
+  "icon": "create:wrench",
+  "category": "patchouli:create",
+  "sortnum": "0",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Para empezar, te recomiendo que busques $(thing)Create$() en tu $(thing)pestaña de avances$(). $(br2)¿Quieres referencias y ejemplos? ¡Haz clic en el icono de gafas en el menú de pausa! Desde allí puedes acceder al índice de ponderación. $(br2)Alternativamente:$(br)$(c:/create ponder)Haz clic aquí para reflexionar"
+    },
+    {
+      "type": "patchouli:link",
+      "url": "https://create.fandom.com/wiki/Create_Mod_Wiki",
+      "text": "¿Atascado y no estás seguro de cómo funciona algo? $(br2)La wiki de Create tiene excelente información sobre los entresijos de la ingeniería.",
+      "link_text": "Wiki de Create"
+    }
+  ]
+}

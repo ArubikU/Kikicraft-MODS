@@ -1,0 +1,11 @@
+{
+  "name": "Consejos y Trucos",
+  "icon": "minecraft:apple",
+  "category": "patchouli:emi",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Pase el ratón sobre la receta: $(br2)Presiona $(thing)U (por defecto)$() al pasar el ratón sobre un artículo para encontrar sus usos en recetas$(br2)Presiona $(thing)R (por defecto)$() al pasar el ratón sobre un artículo para encontrar su receta"
+    }
+  ]
+}

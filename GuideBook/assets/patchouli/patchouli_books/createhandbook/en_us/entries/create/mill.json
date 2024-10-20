@@ -1,0 +1,27 @@
+{
+    "name": "Molino de Piedra",
+    "icon": "create:millstone",
+    "category": "patchouli:create",
+    "sortnum": "9",
+    "pages": [
+        {
+            "type": "text",
+            "text": "El Molino de Piedra puede moler diferentes artículos"
+        },
+        {
+            "type": "multiblock",
+            "name": "Molino de Piedra",
+            "enable_visualize": false,
+            "multiblock": {
+                "pattern":[
+                    ["0"],
+                    [" "]        
+                ],
+                "mapping":{
+                    "0": "create:millstone"
+                }
+            },
+            "text": "El Molino de Piedra puede triturar y moler diferentes artículos, por ejemplo:$(br)(piedra -> grava)$(br)(grava -> pedernal)"
+        }
+    ]
+}

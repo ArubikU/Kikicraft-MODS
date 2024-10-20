@@ -1,0 +1,163 @@
+{
+    "name": "Procesado de Minerales",
+    "icon": "create:crushed_raw_iron",
+    "category": "patchouli:industry",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Iniciemos el procesamiento desde las formas mas faciles a las mas dificiles"
+        },
+        {
+            "type": "multiblock",
+            "name": "Voladuras a Granel",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern":[
+                    ["0"],[ "1"]    
+                ],
+                "mapping":{
+                    "0": "create:encased_fan",
+                    "1": "minecraft:lava"
+                }
+            },
+            "text": "La Voladura a Granel es un proceso que se realiza en la Voladura de Lava, se utiliza para procesar minerales en bruto. \nTambien se puede usar para fundir objetos con receta de horno."
+
+        },
+        {
+            "type": "multiblock",
+            "name": "Trituracion",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern":[
+                    ["1"],[ "1"]    
+                ],
+                "mapping":{
+                    "0": "create:crushing_wheel"
+                }
+            },
+            "text": "La Trituradora es un proceso que se realiza en la Trituradora de Ruedas, se utiliza para procesar minerales en bruto.\nSi es un bloque de mineral (ore) tiene un 75% de probabilidad de dropear una unidad mas de Mineral en Bruto Triturado."
+
+        },
+        {
+            "type": "multiblock",
+            "name": "Refineria de Minerales",
+            "enable_visualize": true,
+            "multiblock": {
+                "pattern":[
+                    ["0"], ["1"], ["2"], [" "], ["3"], [" "], ["4"]
+                ],
+                "mapping":{
+                    "0": "create:millstone",
+                    "1": "create:encased_fan",
+                    "2": "create:mechanical_mixer",
+                    "3": "create:crushing_wheel",
+                    "4": "create:deployer"
+                }
+            }
+        },
+        {
+            "type": "text",
+            "text": "Un proceso largo que inicia con la Trituradora de Ruedas."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Paso I"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "create:dirty_dusts"
+            },
+            "title": "Polvos Sucios",
+            "text": "100% de probabilidad de dropeo al procesado"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "mekanism:crystals"
+            },
+            "title": "Cristales de Mineral",
+            "text": "20% de probabilidad de dropeo al procesado"
+        },
+        {
+            "text": "Procesar un mineral crudo para obtener un polvo sucio y un cristal.\n El polvo sucio se debe lavar para obtener un Mineral Crudo triturado cual se puede lavar con un ventilador detras de un bloque de agua\nPara obtener 9 pepitas y una posibildad de un drop extra o cocinarlo.",
+            "type": "text"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "forge:raw_materials"
+            },
+            "title": "Mineral Crudo",
+            "text": "Item a procesar en la Trituradora de Ruedas"
+        },
+        {
+            "type": "text",
+            "text": "$(l)Paso II"
+        },
+        {
+            "type": "text",
+            "text": "Mesclando."
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "mekanism:shards"
+            },
+            "title": "Fragmentos de Mineral",
+            "text": "1 asegurado y 1 extra con un 50% de probabilidad"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "forge:salt"
+            },
+            "title": "Sal",
+            "text": "Se necesita mesclar 1 cristal con 1 sal para obtener los Fragmentos"
+        },
+        {
+            "type": "text",
+            "text": "$(l)Paso III"
+        },
+        {
+            "type": "text",
+            "text": "Moliendo"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "mekanism:clumps"
+            },
+            "title": "Trozos de Mineral",
+            "text": "1 asegurado y 1 extra con un 75% de probabilidad"
+        },
+        {
+            "type":"text",
+            "text": "$(l)Paso IV"
+        },
+        {
+            "type": "text",
+            "text": "Refinando"
+        },{
+            "type": "spotlight",
+            "item": {
+              "tag": "mekanism:dirty_dusts"
+            },
+            "title": "Polvos Sucios"
+        },
+        {
+            "type": "spotlight",
+            "item": {
+              "tag": "create:sandpaper"
+            },
+            "title": "Papeles de Lija",
+            "text": "Aplicar un papel de lija sobre el trozo con un desplegador para obtener el polvo sucio\nConsume durabilidad del papel de lija"
+        },
+        {
+            "type": "text",
+            "text": "Esto es todo el proceso de refinado de minerales, Al finalizar se obtiene el polvo sucio que se debera lavar para obtener el Mineral Crudo Triturado.\nEste pudiendose cocinar o lavar para obtener pepitas de mineral y un drop extra."
+        }
+
+
+    ]
+}

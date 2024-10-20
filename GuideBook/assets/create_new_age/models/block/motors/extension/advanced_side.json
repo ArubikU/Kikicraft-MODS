@@ -1,0 +1,8 @@
+{
+	"parent": "create_new_age:block/motors/extension/basic_side",
+	"textures": {
+		"particle": "create_new_age:block/motor_grade_t2",
+		"1_4": "create_new_age:block/motor_grade_t2",
+		"1_11": "create_new_age:block/motor_base"
+	}
+}

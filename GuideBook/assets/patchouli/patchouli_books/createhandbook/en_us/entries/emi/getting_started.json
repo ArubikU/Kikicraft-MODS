@@ -1,0 +1,27 @@
+
+{
+  "name": "Comenzando",
+  "icon": "minecraft:diamond",
+  "category": "patchouli:emi",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "EMI tiene muchas características y es lo que usarás principalmente para recetas a lo largo de tu viaje. $(br2)Puedes buscar entre todos los artículos del modpack usando la barra de búsqueda en la parte inferior de tu pantalla de inventario."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Los artículos aparecen en el lado derecho de la pantalla y se pueden hacer clic para ver sus recetas. También puedes pasar el ratón sobre un artículo y presionar la tecla U en tu teclado (por defecto) para ver los artículos que se pueden fabricar a partir de él."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Vista del Artículo",
+      "text": "Al ver las recetas para un artículo, las pestañas cerca de la parte superior de la pantalla te mostrarán diferentes métodos para fabricarlo/obtenerlo. Por ejemplo, la Lana tiene una pestaña sobre cómo fabricarla en una mesa de trabajo, una pestaña sobre cómo lavarla o empaquetarla con maquinaria de Create, y una pestaña sobre cómo intercambiarla con aldeanos."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Árbol de Recetas",
+      "text": "Algunas recetas avanzadas pueden volverse un poco complicadas. Al ver una receta en EMI, puedes presionar el pequeño botón Ver Árbol de Recetas a su derecha para ver toda la cadena de pasos de fabricación y el costo total."
+    }
+  ]
+}

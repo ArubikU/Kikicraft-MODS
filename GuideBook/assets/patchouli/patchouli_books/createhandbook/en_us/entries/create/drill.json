@@ -1,0 +1,44 @@
+{
+    "name": "Taladro Mecánico",
+    "icon": "create:mechanical_drill",
+    "category": "patchouli:create",
+    "sortnum": "5",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "El Taladro Mecánico es un bloque utilizado para romper otros bloques."
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "Taladro Mecánico",
+        "link_recipe": true,
+        "item": "create:mechanical_drill",
+        "text": "El Taladro Mecánico se fabrica con Aleación de Andesita, Lingote de Hierro y Caja de Andesita."
+      },
+      {
+        "type": "patchouli:multiblock",
+        "name": "Taladro Mecánico",
+        "enable_visualize": true,
+        "multiblock": {
+          "pattern": [
+            ["m"]
+          ],
+          "mapping": {
+            "m": "create:mechanical_drill"
+          }
+        },
+        "text": "$(br)El Taladro Mecánico es una herramienta poderosa que se utiliza para romper bloques y dañar entidades. Asegúrate de que esté correctamente configurado para su uso efectivo."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Llave Inglesa",
+        "text": "Hacer clic derecho con Shift sobre un Taladro Mecánico con una Llave Inglesa destruirá el Taladro Mecánico y lo colocará en tu inventario."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Uso",
+        "text": "Romper Bloques:$(br)Un Taladro Mecánico estacionario romperá bloques en el bloque frente a él con un tiempo de (45 x Dureza)/RPM y dañará a las entidades en un área alrededor de él.$(br)Un Taladro Mecánico movido por Contraptions romperá bloques y dañará entidades con las que colisiona sin necesidad de una fuente directa de Fuerza Rotacional.$(br)El tiempo que tarda un Taladro Mecánico en romper un bloque se basa en la velocidad del Contraption y el valor de Dureza del bloque. El daño infligido a las entidades también se basa en la velocidad del Contraption."
+      }
+    ]
+  }
+  

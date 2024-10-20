@@ -1,0 +1,49 @@
+{
+    "name": "Sierra Mecánica",
+    "icon": "create:mechanical_saw",
+    "category": "patchouli:create",
+    "sortnum": "6",
+    "pages": [
+      {
+        "type": "patchouli:text",
+        "text": "La Sierra Mecánica es un bloque utilizado para cortar bloques de madera y otros materiales."
+      },
+      {
+        "type": "patchouli:spotlight",
+        "title": "Sierra Mecánica",
+        "link_recipe": true,
+        "item": "create:mechanical_saw",
+        "text": "La Sierra Mecánica se fabrica con Hoja de Hierro, Lingote de Hierro y Caja de Andesita."
+      },
+      {
+        "type": "patchouli:multiblock",
+        "name": "Sierra Mecánica",
+        "enable_visualize": true,
+        "multiblock": {
+          "pattern": [
+            ["s"]
+          ],
+          "mapping": {
+            "s": "create:mechanical_saw"
+          }
+        },
+        "text": "$(br)La Sierra Mecánica es una herramienta que puede cortar bloques de madera y otros materiales cuando está correctamente configurada."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Llave Inglesa",
+        "text": "Hacer clic derecho con Shift sobre una Sierra Mecánica con una Llave Inglesa destruirá la Sierra Mecánica y la colocará en tu inventario."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Uso",
+        "text": "Corte de Bloques:$(br)Las Sierras Mecánicas se alimentan a través de fuerza rotacional y, cuando se colocan de lado, cortarán automáticamente los bloques de madera frente a ellas. Cuando corten un árbol o un hongo gigante, destruirán automáticamente todo el árbol al destruir solo el bloque más bajo.$(br)Las Sierras Mecánicas solo deben cortar árboles 2x2 siempre que al menos el último bloque (horizontalmente) sea cortado usando la sierra. La forma más fácil de eludir esto es eliminando el bloque inmediatamente arriba del bloque que se está cortando, en cuyo caso el árbol 2x2 entero será cortado por la sierra mecánica.$(br)Las Sierras Mecánicas pueden cortar cualquier estructura de troncos que no tenga un cuadrado vertical 2x2 con el bloque que se está destruyendo como uno de los bloques inferiores.$(br)Las Sierras Mecánicas están automáticamente alimentadas cuando están en un Contraption de Create. La sierra dañará entidades y romperá bloques a una cierta velocidad dependiendo de la velocidad del contraption."
+      },
+      {
+        "type": "patchouli:text",
+        "title": "Corte de Bloques",
+        "text": "Las recetas de Stonecutter pueden aplicarse usando un Filtro; de lo contrario, se seleccionará una receta aleatoria."
+      }
+    ]
+  }
+  
